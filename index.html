@@ -1,43 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Planik</title>
-    <style>
-        html {
-            min-height: 100%;
-            background-size: cover;
-            overflow: hidden;
+    <title>Planik - school timetable</title>
 
-            -webkit-touch-callout: none;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-            cursor: default;
-            font-family: 'Ubuntu', sans-serif;
-        }
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap-grid.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css"/>
 
-        body {
-            min-height: 100%;
-        }
-
-        .heading {
-            color: #2b3d4f;
-            font-size: 100px;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            position: absolute;
-            top: 46%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 </head>
 <body>
-<div class="heading">Planik</div>
+<section id="cover-image">
+    <div class="background"></div>
+    <div class="content">
+        <div class="container">
+           <div class="col-md-4 col-md-pull-2 col-lg-pull-4 pull-right data-container">
+                <div class="lead-info">
+                    <h1>Planik</h1>
+                    <p>Planik is an application that will take your timetable to the next level.</p>
+                    <p class="stores">
+                        <a href="https://github.com/MrOnyszko/planik_flutter_app">
+                            <img src="assets/images/github-mark.png" alt="Download from google play" width="80"/>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 pull-left data-container">
+                <div class="android-device">
+                    <img src="assets/images/screenshot.png" alt="screenshot"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="values">
+     
+    <div class="container header">
+        <div class="col-md-12">
+            <h2>Make plans and be up to date</h2>
+            <p>Planik enables you to keep track of your plan on daily basis. You can download this application on Google Play for free.</p>
+        </div>
+    </div>
+    <div class="container body">
+        <div class="col-md-3 value">
+            <div class="icon"><i class="material-icons md-36">description</i></div>
+            <h3>Notes</h3>
+            <p>You can take notes inside this app.<br/> All entries are stored on your phone storage and you can syncronize them with the cloud.</p>
+        </div>
+        <div class="col-md-3 col-md-offset-1 value">
+            <div class="icon"><i class="material-icons md-36">accessibility_new</i></div>
+            <h3>Easy to use</h3>
+            <p>You can quickly add an entry with a title and note.</p>
+        </div>
+        <div class="col-md-3 col-md-offset-1 value">
+            <div class="icon"><i class="material-icons md-36">favorite</i></div>
+            <h3>Discipline</h3>
+            <p>This application will make you more organized.</p>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+</section>
 </body>
 </html>
